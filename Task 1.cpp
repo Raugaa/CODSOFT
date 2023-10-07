@@ -15,15 +15,15 @@ int main()
         int difference = abs(guess-num);
         if(difference == 1 || difference == 2)
         {
-            cout<<"Close Enough";
+            cout<<"Close Enough! ";
         }
         else if(guess > num)
         {
-            cout<<"Too High";
+            cout<<"Too High! ";
         }
         else if(guess < num)
         {
-            cout<<"Too Low";
+            cout<<"Too Low! ";
         }
         else
         {
